@@ -26,3 +26,13 @@ div.appendChild(divP);
 
 container.appendChild(div);
 div.style.cssText="border: 1px dashed black; background-color: pink";
+function alertFunction () {
+  alert('hello world!');
+}
+
+
+var btn = document.querySelector('#btn');
+
+btn.addEventListener('click', function(e){
+  e.target.style.background = 'blue'
+})
