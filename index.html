@@ -1,17 +1,29 @@
-// The DOM
+<html>
 <head>
-
+  <style type="text/css">
+    body {
+      text-align: center;
+      font-family: monospace;
+    }
+    button {
+      border-radius: 0px;
+      border:none;
+      color: grey;
+      font-size: 20px;
+      margin-right:50px;
+      margin-left:: 50px;
+    }
+  </style>
 </head>
 <body>
-  <h1>
-    THE TITLE OF YOUR WEBPAGE
-  </h1>
+  <h1>Click a button to return its ID</h1>
   <div id="container">
-  	<div class="content">
-      This is the glorious text-content!
-      <button onclick="alert('hello world!')">Click Me!</button>
-      <button id="btn">Click Me!</button>
-    </div>
+    <button id="1">Click Me</button>
+    <button id="2">Click Me</button>
+    <button id="3">Click Me</button>
   </div>
-  <script src="scripts/main.js"></script>
 </body>
+
+<script src="scripts/main.js" type="text/javascript"></script>
+
+</html>
